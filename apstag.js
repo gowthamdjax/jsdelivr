@@ -2089,7 +2089,7 @@
             var j = {
                 src: l.config.pubID,
                 u: Object(u.gcref)(window),
-                pr: Object(u.h)(window),
+                pr: Object(u.gcref)(window),
                 pid: S,
                 cb: t.bidReqID,
                 ws: Object(c.h)(window),
